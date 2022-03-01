@@ -77,11 +77,11 @@ const ValidatorsList = () => {
         {
           accessor: 'stakeAmount',
           Cell: StakeAmountCell,
-          Header: <TableHeader header='Staked amount' tooltipText='The amount of FUSE staked to each validator.' id='staked' />
+          Header: <TableHeader header='Staked amount' tooltipText='The amount of FUSE staked at NextGEN validator.' id='staked' />
         },
         {
           accessor: 'fee',
-          Header: <TableHeader header='Fee' tooltipText='The % of the block rewards each validator takes.' id='fee' />
+          Header: <TableHeader header='Fee' tooltipText='The % of the block rewards NextGEN validator takes.' id='fee' />
         },
         {
           id: 'dropdown',

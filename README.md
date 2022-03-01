@@ -1,1 +1,1 @@
-# Fuse-Staking-DApp
+# NextGEN Finance Fuse Validator Page

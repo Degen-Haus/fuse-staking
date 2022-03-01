@@ -48,9 +48,9 @@ const NavBar = ({ history, handleConnect, handleLogout }) => {
               rel='noreferrer noopener'
               className={classNames('header__link', { 'header__link--dark': isOpen })}
               target='_blank'
-              href='https://rewards.fuse.io/'
+              href='https://app.next-gen.finance/farms/'
             >
-              <img src={stakingIcon} /> Farming
+              <img src={stakingIcon} /> NextGEN Power Farm
             </a>
             <a
               rel='noreferrer noopener'

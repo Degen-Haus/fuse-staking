@@ -40,7 +40,7 @@ const Footer = () => {
         </div>
         <div className='footer__icons grid-x align-center'>
           <HoverIcon
-            link='https://twitter.com/fuse_network'
+            link='https://twitter.com/HouseDegen'
             Icon={() => (
               <div className='image' style={{ backgroundImage: `url(${twitterIcon})` }} />
             )}
@@ -49,7 +49,7 @@ const Footer = () => {
             )}
           />
           <HoverIcon
-            link='https://github.com/fuseio'
+            link='https://github.com/Degen-Haus'
             Icon={() => (
               <div className='image' style={{ backgroundImage: `url(${githubIcon})` }} />
             )}
@@ -58,16 +58,7 @@ const Footer = () => {
             )}
           />
           <HoverIcon
-            link='https://medium.com/fusenet'
-            Icon={() => (
-              <div className='image' style={{ backgroundImage: `url(${mediumIcon})` }} />
-            )}
-            Hover={() => (
-              <div className='image' style={{ backgroundImage: `url(${mediumIconHover})` }} />
-            )}
-          />
-          <HoverIcon
-            link='https://discordapp.com/invite/jpPMeSZ'
+            link='https://discord.gg/degenhaus'
             Icon={() => (
               <div className='image' style={{ backgroundImage: `url(${discordIcon})` }} />
             )}
@@ -76,7 +67,7 @@ const Footer = () => {
             )}
           />
           <HoverIcon
-            link='https://t.me/fuseio'
+            link='https://t.me/+39YmiksnLMsxMzU1'
             Icon={() => (
               <div className='image' style={{ backgroundImage: `url(${telegramIcon})` }} />
             )}
